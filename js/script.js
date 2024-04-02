@@ -1,13 +1,13 @@
 var prods = [
-    { id: 1, name: "Cheeseburger", price: 11.0 },
-    { id: 2, name: "Bacon Sandwich", price: 22.0 },
-    { id: 3, name: "Cheese Fries", price: 33.0 },
-    { id: 4, name: "Chicken Quesadilla", price: 40.0 },
-    { id: 5, name: "Classic Burger", price: 22.0 },
-    { id: 6, name: "French Fries", price: 24.0 },
-    { id: 7, name: "Fried Shrimp", price: 25.0 },
-    { id: 8, name: "Cheese Sandwich", price: 27.0 },
-    { id: 9, name: "Salad Sandwich", price: 29.0 }
+    { id: 1, name: "Cheeseburger", price: 2.00 },
+    { id: 2, name: "Bacon Sandwich", price: 3.00 },
+    { id: 3, name: "Cheese Fries", price: 5.00 },
+    { id: 4, name: "Chicken Quesadilla", price: 7.00 },
+    { id: 5, name: "Classic Burger", price: 1.50 },
+    { id: 6, name: "French Fries", price: 2.00 },
+    { id: 7, name: "Fried Shrimp", price: 8.00 },
+    { id: 8, name: "Cheese Sandwich", price: 3.00 },
+    { id: 9, name: "Salad Sandwich", price: 4.00 }
 ];
 
 function calc() {
