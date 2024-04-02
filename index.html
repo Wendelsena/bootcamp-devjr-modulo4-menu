@@ -10,6 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/quantity.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-danger-subtle">
@@ -97,7 +98,11 @@
             <div class="card-body">
               <h4 class="card-title">Cheaseburger</h4>
               <h3 class="text-success">$2.00</h3>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="quantity buttons_added mt-4">
+                <input type="button" value="-" class="minus">
+                <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                <input type="button" value="+" class="plus">
+            </div>
             </div>
           </div>
           <div class="card shadow rounded bg-body-tertiary border border-danger-subtle" style="width: 16rem; padding: 0;">
@@ -105,7 +110,11 @@
             <div class="card-body">
               <h4 class="card-title">Bacon Sandwich</h4>
               <h3 class="text-success">$3.00</h3>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="quantity buttons_added mt-4">
+                <input type="button" value="-" class="minus">
+                <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                <input type="button" value="+" class="plus">
+            </div>
             </div>
           </div>
           <div class="card shadow rounded bg-body-tertiary border border-danger-subtle" style="width: 16rem; padding: 0;">
@@ -113,7 +122,11 @@
             <div class="card-body">
               <h4 class="card-title">Cheese Fries</h4>
               <h3 class="text-success">$5.00</h3>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="quantity buttons_added mt-4">
+                <input type="button" value="-" class="minus">
+                <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                <input type="button" value="+" class="plus">
+            </div>
             </div>
           </div>
         </div>
@@ -174,5 +187,8 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="js/jquery-3.6.0.min.js"> </script>
+    <script src="js/jquery.mask.min.js"> </script>
+    <script src="js/quantity.js"> </script>
   </body>
 </html>
